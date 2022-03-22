@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height:  200px;
+    width:  100%;
+    padding: 15px;
+    background-color:rgb(32, 43, 53) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0%;
+    color:rgb(32, 43, 53) ;
+    background-color: rgb(124, 165, 189);
+}
+
+header ul a {
+    color:rgb(124, 165, 189);
+    font-size: 30px;
+}
+
+ul a:hover {
+    color: white;
+    background-color: black;
+}
+
+.Subtitle {
+    border: 1px solid black;
+}
+
+p {
+    margin-top: 50px;
+}
+
+.Aboutme {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.Aboutme h2 {
+    font-size: 50px;
+}
+.Work {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.Work h2 {
+    font-size: 50px;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    border: 3px solid aquamarine;
+    margin:5px;
+    background-color: rgb(32, 43, 53) ;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container:hover {
+    background-color: lightblue;
+}
+
+#Report-container h2 {
+    width: 800px;
+    display: b;
+}
+
+.image1 {
+    width: 100px;
+    height: 50px;
+    color:rgb(32, 43, 53) ;
+    background-color:rgb(124, 165, 189);
+    margin: 10px;
+}
+
+.Contactme {
+    margin: 20px;
+    display: flex;
+    justify-content: center; 
+}
+.Contactme h2 {
+    font-size: 50px;
+}
+
+footer nav ul a {
+    margin: 30px;
+    display: flex;
+    display: inline;
+    color:rgb(32, 43, 53) ;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        background-color: bisque;
+    }
+    header h1 {
+        background-color: aquamarine;
+        color: black;
+    }
+}
