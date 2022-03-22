@@ -1,13 +1,13 @@
-# HOMEWORK-1 (Refactoring)
->For the on-the-job ticket homework, we are asked to refactor the existing codebase to improve sustainability and efficiency.
+# HOMEWORK-2 (CSS Portfolio)
+>We were asked to build a portfolio page from scratch. 
 
 ## To Do List:
-* Changed to HTML Semantic Elements properly
-* Combined/Simplified duplicated CSS
-* Built a logical structure in sequential order
+* Navigate the page accordingly by clicking the links.
+* Using Pseudo-Element&Class, 
+* Through the media quary, changed the color based on the size of the screen
 
 ### This is Mock-up page.
 
-![Mockup](./assets/images/Market%20Your%20Brand!.png)
+![Mockup](./Img/Benjamin.png)
 
 Benjamin Kim
